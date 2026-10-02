@@ -1,0 +1,329 @@
+body{
+    background-color: rgb(255, 255, 255);
+    padding: 0%;
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior:smooth;
+    width:auto;
+}
+.header{
+    width: 100%;
+    position: fixed;
+    background-color: #2f2f2f;
+    padding: 0%;
+    margin: 0%;
+    display:flex;
+    border-bottom-width:3px ;
+    border-bottom-style:solid ;
+    border-color:rgba(166, 168, 171, 0.918);
+    flex-direction:row;
+    text-align:center;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:nowrap;
+    flex-grow:1;
+    flex-shrink:1;
+    z-index: 100;
+}
+.nav ul li a{
+    text-decoration:none;
+    color:#ffffff;
+    padding:0px;
+    margin:0px;
+    display:inline;
+    padding-left:45px;
+    font-size: 1.1rem;
+}
+.log1{
+    margin-top: 0px;
+    margin-left: 35px;
+}
+.log2{
+    margin-right: 35px;
+}
+.nav ul{
+    display:flex;
+    flex-direction:row;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+    margin-top: 20px;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.log2 ul{
+    display:flex;
+    flex-direction:row;
+    text-align:center;
+    justify-content:space-around;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+
+}
+.log2 ul li a{
+    text-decoration:none;
+    padding-left: 25px;
+    font-size:30px;
+    color:black
+}
+.nav ul li a:hover{
+    text-decoration: underline;
+    color:rgb(27, 171, 30)
+}
+
+.log1 p{
+    background-image:linear-gradient(to left ,rgb(238, 117, 232),rgb(98, 216, 234));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    margin-top: 15px;
+    margin-left:50px;
+    font-style: italic;
+    font-weight: 900;
+    color:#f26bf2;
+}
+main{
+    padding-top:70px;
+}
+.india{
+    color: rgb(255, 254, 254);
+    font-size: 4.5rem;
+    margin-top: -480px;
+    margin-left:0px;
+    margin-bottom: 155px;
+    height:auto;
+    text-align:center;
+}
+marquee {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    background-color: #ffffff;
+}
+marquee p{
+    white-space: nowrap;
+    padding: 8px 0;
+    margin: 0;
+}
+
+.about{
+    font-size:3rem;
+    height:50px;
+    width:100%;
+    text-align: center;
+    background-color: #f9e9ff;
+    padding-bottom:10px;
+}
+.about span{
+    color:#d928d9;
+}
+
+.aboutimage{
+    display:flow-root;
+    padding-left: 150px;
+    float:left;
+    padding-right: 50px;
+    
+}
+.aboutp{
+   font-size: 1.3rem;
+}
+.aboutp span{
+    font-size:3rem;
+    color:black;
+}
+.best{
+    padding-top:-1000px;
+}
+.ourproduct{
+    font-size:3rem;
+    height:50px;
+    width:100%;
+    text-align: center;
+    background-color: #f9e9ff;
+    padding-bottom:10px;
+    margin-top: 100px;
+
+}
+.one{
+    width:350px;
+    height:80px;
+    background-color: rgb(254, 255, 255);
+    padding-bottom: 10px;
+}
+
+.free{
+    background-color: rgb(234, 235, 235);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height:120px;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 30px;
+  
+  
+}
+.ourproduct span{
+    color:#d928d9;
+}
+.productimage{
+    width: 300px;
+    height:300px;
+
+
+}
+.products{
+    
+    display: flex;
+    flex-direction:column;
+    height:auto;
+    width:300px;
+    background-color: rgb(245, 245, 245);
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 9px 9px 9px rgb(219, 219, 182);
+}
+.products p{
+   text-align: center; 
+   font-size: 1.5rem;
+
+}
+.products p span{
+    color: rgb(206, 27, 212);
+    font-size: 1.5rem;
+}
+#product,.product1{
+    background-color: rgb(251, 251, 251);
+    display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   flex-grow: 1;
+   flex-shrink: 1;
+   align-items: center;
+   justify-content: center;
+   gap:25px;
+   padding:50px;
+ 
+}
+.india pre{
+    font-size: 4.5rem;
+    font-weight: 900;
+    font-style: italic;
+    padding-left: 0px;
+    text-align:center;
+    color:#ffffff;
+ 
+}
+.card{
+    background-color:rgb(255, 255, 255) ;
+    color: rgb(117, 119, 119);
+    width: 350px;
+    height:auto;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(117, 116, 116);
+    text-align: justify;
+    margin-left: 100px;
+    font-size: 1.5rem;
+    box-shadow: 9px 9px 9px rgb(228, 227, 213);
+}
+.c{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    color: black;
+    font-size: 2rem;
+}
+.review{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    flex-wrap:wrap;
+    
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 100px;
+
+}
+form{
+    width: 420px;
+}
+form label{
+    display: inline-block;
+    width: 90px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+.inputbox{
+    width: 300px;
+    height: 42px;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+textarea.inputbox{
+    width: 300px;
+    height: 180px;
+    resize: vertical;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+input[type="submit"],
+input[type="reset"]{
+    width: 140px !important;
+    height: 42px;
+    font-size: 1rem;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+input[type="submit"]{
+    margin-left: 60px !important;
+}
+input[type="reset"]{
+    margin-left: 5px !important;
+}
+footer{
+    display: flex;
+    flex-direction: row;;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: space-around;
+    align-items: justify;
+    background-color: rgba(58, 58, 59, 0.918);
+    color: rgb(255, 255, 255);
+
+
+}
+
+button,
+input[type="submit"],
+input[type="reset"] {
+    background-color: #000000;
+    color: #ffffff;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
